@@ -178,20 +178,8 @@ public class ArrCharOps {
      *         return -2 if there is an error with the input.
      */
     public static int compareTo(String str1, String str2) {
-        for( int i = 0; i < str1.length(); i++)
-        {
-            if(97 > str1.charAt(i) || 122 < str1.charAt(i)  )
-            {
-                return -2;
-            }
-        }
-         for( int i = 0; i < str2.length(); i++)
-        {
-            if(97 > str2.charAt(i) || 122 < str2.charAt(i)  )
-            {
-                return -2;
-            }
-        }
+       
+        
         if(str1.length() == 0 || str2.length() == 0)
         {
             return -2;

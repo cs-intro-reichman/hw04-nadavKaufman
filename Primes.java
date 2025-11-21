@@ -33,7 +33,7 @@ public class Primes {
         }
               System.out.print("There are " + count + " primes between " + "2 and " + n + " (");
               double  r = (double) count / n ;
-              System.out.print((int)(r * 100 )+ "% are primes)");
+              System.out.println((int)(r * 100 )+ "% are primes)");
 
         
     }
